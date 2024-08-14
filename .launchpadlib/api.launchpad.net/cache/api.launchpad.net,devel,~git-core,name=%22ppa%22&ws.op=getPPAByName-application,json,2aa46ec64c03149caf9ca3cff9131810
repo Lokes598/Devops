@@ -1,0 +1,22 @@
+status: 200
+date: Wed, 14 Aug 2024 09:14:31 GMT
+server: gunicorn
+x-powered-by: Zope (www.zope.org), Python (www.python.org)
+content-security-policy: frame-ancestors 'self';
+content-type: application/json
+strict-transport-security: max-age=15552000
+vary: Accept,Accept-Encoding
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-launchpad-revision: 1b1ed1ad2dbfc71ee62b5c5491c975135a771bf0
+x-lazr-notifications: []
+x-xss-protection: 1; mode=block
+x-vcs-revision: 1b1ed1ad2dbfc71ee62b5c5491c975135a771bf0
+x-request-id: 8dba8fe2-d3e8-40a8-b5b4-4b37b100e06d
+content-length: 2817
+-content-encoding: gzip
+content-location: https://api.launchpad.net/devel/~git-core?name=%22ppa%22&ws.op=getPPAByName
+-varied-accept: application/json
+-varied-accept-encoding: gzip, deflate
+
+{"self_link": "https://api.launchpad.net/devel/~git-core/+archive/ubuntu/ppa", "web_link": "https://launchpad.net/~git-core/+archive/ubuntu/ppa", "resource_type_link": "https://api.launchpad.net/devel/#archive", "owner_link": "https://api.launchpad.net/devel/~git-core", "name": "ppa", "displayname": "Git stable releases", "reference": "~git-core/ubuntu/ppa", "distribution_link": "https://api.launchpad.net/devel/ubuntu", "private": false, "suppress_subscription_notifications": false, "dependencies_collection_link": "https://api.launchpad.net/devel/~git-core/+archive/ubuntu/ppa/dependencies", "description": "The most current stable version of Git for Ubuntu.\n\nFor release candidates, go to https://launchpad.net/~git-core/+archive/candidate .\n\n\u2554\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2557\n\u2551 NOTE ABOUT THE \u201cWEAK ALGORITHM\u201d WARNING IN UBUNTU 24.04 \u2551\n\u255a\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u255d\nFor details about the warning \u201cW: https://ppa.launchpadcontent.net/git-core/ppa/ubuntu/dists/noble/InRelease: Signature by key E1DD270288B4E6030699E45FA1715D88E1DF1F24 uses weak algorithm (rsa1024)\u201d, see:\n\nhttps://discourse.ubuntu.com/t/new-requirements-for-apt-repository-signing-in-24-04/42854\nhttps://bugs.launchpad.net/ubuntu/+source/software-properties/+bug/2065932\n\nThere\u2019s nothing that PPA owners can do about this for now, as the key is fully controlled internally by Launchpad.", "signing_key_fingerprint": "F911AB184317630C59970973E363C90F8F1B6217", "require_virtualized": true, "build_debug_symbols": true, "publish_debug_symbols": true, "permit_obsolete_series_uploads": false, "authorized_size": 2048, "status": "Active", "external_dependencies": null, "metadata_overrides": null, "processors_collection_link": "https://api.launchpad.net/devel/~git-core/+archive/ubuntu/ppa/processors", "enabled_restricted_processors_collection_link": "https://api.launchpad.net/devel/~git-core/+archive/ubuntu/ppa/enabled_restricted_processors", "publishing_method": "Local", "repository_format": "Debian", "publish": true, "relative_build_score": 0, "http_etag": "\"5dba76984353d257b8edf2b8371a161683fe4461-a8d5715fa72dba9f17b9ef155d824165767f0667\""}
